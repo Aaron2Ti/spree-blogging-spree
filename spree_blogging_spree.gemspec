@@ -2,10 +2,10 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_blogging_spree'
-  s.version     = '0.3.0'
+  s.version     = '0.3.2'
   s.summary     = 'BloggingSpree: A Spree blogging solution'
   s.description = 'A basic blogging solution for use with the Spree E-Commerce platform.'
-  s.required_ruby_version = '>= 1.8.7'
+  s.required_ruby_version = '>= 1.9.3'
 
   s.author    = 'Paul Callaghan, Ray Mendoza, Stefan Senk'
   # s.email     = 'you@example.com'
@@ -16,8 +16,8 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 2.2.0.beta'
-  s.add_dependency 'acts-as-taggable-on', '~> 2.3.1'
+  s.add_dependency 'spree_core', '>= 2.1.0'
+  s.add_dependency 'acts-as-taggable-on', '~> 3.0.1'
 
   s.add_development_dependency 'capybara', '~> 1.1'
   s.add_development_dependency 'factory_girl', '~> 4.2'
